@@ -9,3 +9,5 @@ indices-espectrales-python: Automatiza el cálculo de índices (NDVI, EVI, SAVI,
 Elio Leguina Huertas
 
 ## Contacto
+
+Este trabajo fue publicado en ReTec ... ..... ....

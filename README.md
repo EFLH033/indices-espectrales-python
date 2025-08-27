@@ -6,6 +6,7 @@ indices-espectrales-python: Automatiza el cálculo de índices (NDVI, EVI, SAVI,
 El proceso para el monitoreo agroambiental con este script se divide en dos fases principales, que se corresponden con las dos partes del código.
 ### Fase 1: Delimitación del Área de Interés (AOI)
 ⚠️ Importante: Antes de comenzar, debes haber descargado las bandas satelitales de Sentinel-2 para la fecha y el área de estudio que te interesan. El script está diseñado para procesar archivos locales.
+
 Esta fase es crucial para definir el lote agrícola o el área específica que se desea analizar. El script genera un mapa interactivo en un archivo HTML que permite al usuario dibujar un polígono sobre la zona de interés.
 
 1. Configuración de la fecha: Antes de ejecutar, debes abrir el script y ajustar la variable FECHA_DE_IMAGEN. Asegúrate de que esta fecha, en formato YYYYMMDD, coincida con la de la imagen Sentinel-2 que vas a procesar. Por ejemplo, si tu imagen es del 13 de junio de 2024, la variable debe ser "20240613".

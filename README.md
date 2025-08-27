@@ -2,7 +2,7 @@
 indices-espectrales-python: Automatiza el cálculo de índices (NDVI, EVI, SAVI, NDMI, NDWI, GNDVI, NDRE y VCI) para monitoreo agroambiental con imágenes Sentinel-2. Incluye herramientas para selección de lotes (poligonos) con GeoJSON, procesamiento de bandas y generación de mapas de los difernetes indices de vegetación y humedad. 🛰️🌱
 
 ## Cómo usar este repositorio?
-## Fases del Flujo de Trabajo
+### Fases del Flujo de Trabajo
 El proceso para el monitoreo agroambiental con este script se divide en dos fases principales, que se corresponden con las dos partes del código.
 ### Fase 1: Delimitación del Área de Interés (AOI)
 Esta fase es crucial para definir el lote agrícola o el área específica que se desea analizar. El script genera un mapa interactivo en un archivo HTML que permite al usuario dibujar un polígono sobre la zona de interés.
@@ -37,8 +37,22 @@ Adicionalmente, guardará una copia de cada índice en formato GeoTIFF (.tif) de
 El script incluye una función de limpieza final que elimina los archivos .tif temporales para mantener el directorio ordenado, conservando únicamente los resultados finales.
 
 ## Autor
-Elio Leguina Huertas
+Elio Leguina Huertas¹, Rubén Ledesma²'³
+
+## Afiliaciones
+¹ Facultad de Ciencias Naturales - Universidad Nacional de Salta
+
+² Facultad de Ciencias Exactas - Universidad Nacional de Salta
+
+³ Instituto de Energía no Convencional - CONICET
 
 ## Contacto
+Elio Leguina Huertas
 
-Este trabajo fue publicado en ReTec ... ..... ....
+Correo electrónico: elioleguinahuertas@gmail.com
+
+Rubén Ledesma
+
+Correo electrónico: rdledesma@exa.unsa.edu.ar
+
+Este trabajo será publicado en ReTec proximamente.....
